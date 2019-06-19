@@ -1,0 +1,16 @@
+{
+    "name": "cthrottle/throttle",
+    "description": "限频接口",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CThrottle\\Throttle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CThrottle\\Throttle\\Tests\\": "tests/"
+        }
+    }
+}
